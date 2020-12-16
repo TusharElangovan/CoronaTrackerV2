@@ -23,7 +23,8 @@ struct contentView: View
     }
     
 }
-    
+
+    //New line
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View{
