@@ -6,15 +6,36 @@
 //  Copyright © 2020 Tushar Elangovan. All rights reserved.
 //
 
-import UIKit
 
-class ViewController: UIViewController {
+import SwiftUI
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//class ViewController: UIViewController {
+    
+
+struct contentView: View
+{
+    
+     @ObservedObject var covidFetch = CovidFetchRequest()
+    
+    var body: some View{
+        Text("Hello World")
+       //   vidFetchRequest()
     }
-
-
+    
 }
+    
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View{
+        ContentView()
+    }
+}
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        }
+//
+//}
+
 
