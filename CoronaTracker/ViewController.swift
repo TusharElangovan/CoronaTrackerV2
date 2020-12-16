@@ -25,6 +25,9 @@ struct contentView: View
 }
 
     //New line
+func setuplayout(){
+    print("Hey Im here")
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View{
